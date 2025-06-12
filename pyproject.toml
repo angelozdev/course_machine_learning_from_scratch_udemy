@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "course-machine-learning-from-scratch-udemy"
+version = "0.1.0"
+description = ""
+authors = ["angelozdev <angelozam17@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+numpy = "^2.3.0"
+pandas = "^2.3.0"
+scikit-learn = "^1.7.0"
+matplotlib = "^3.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
